@@ -1,140 +1,178 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1113211029</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>吳柏璇 - 1113211029</title>
 
-        header {
-            background-color: #b791da;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        .content {
-            padding: 2em;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .photo {
-            width: 100%;
-            max-width: 200px;
-            border-radius: 50%;
-            margin: 0 auto;
-            display: block;
-        }
-
-        h1 {
-            font-size: 2em;
-            margin-bottom: 0.5em;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-    </style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+    header {
+      background-color: #b791da;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    .photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-top: 1.5em;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>1113211029</h1>
-    </header>
-    <div class="content">
-        <img src="B612_20231216_152834_593.webp" alt="你的照片" class="photo">
-        <p>大家好，我是Laura。我的學號是 來自數位系。喜歡彈吉他和唱歌，在閒暇時間我也喜歡閱讀小說和看電影。希望能夠在未來的學習旅程中，提升自己的技能並學習和成長！</p>
+
+  <!-- 頁首 -->
+  <header>
+    <p>1113211029 Laura</p>
+  </header>
+
+  <!-- 滿版輪播圖 -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <!-- 指示器 -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
     </div>
-</body>
-</html>
 
-<table class="table table-striped table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>John</td>
-      <td>Doe</td>
-      <td>@social</td>
-    </tr>
-  </tbody>
-</table>
+    <!-- 輪播圖片 -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/1015/1600/600" class="d-block w-100" alt="slide1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1025/1600/600" class="d-block w-100" alt="slide2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1035/1600/600" class="d-block w-100" alt="slide3">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1045/1600/600" class="d-block w-100" alt="slide4">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/1055/1600/600" class="d-block w-100" alt="slide5">
+      </div>
+    </div>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-    <!-- Example Code Start-->
-    <div class="accordion" id="accordionExample">
+    <!-- 左右控制箭頭 -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- 非滿版內容區 -->
+  <div class="container mt-5">
+
+    <h2 class="text-center mb-4"></h2>
+    <img src="B612_20231216_152834_593.webp" alt="我的照片" class="photo mb-3">
+    <p class="text-center">
+      大家好，我是 Laura，來自數位系。喜歡彈吉他和唱歌，也喜歡閱讀小說與看電影。<br>
+      希望能在未來的學習旅程中，不斷學習與成長！
+    </p>
+
+    <hr>
+
+    <!-- 表格 -->
+    <h2></h2>
+    <table class="table table-striped table-hover mt-3">
+      <thead class="table-primary">
+        <tr>
+          <th>#</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <!-- 手風琴 -->
+    <h2></h2>
+    <div class="accordion mt-3" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            我的興趣
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            我喜歡音樂、閱讀與電影，特別喜歡奇幻和冒險類型的作品。
           </div>
         </div>
       </div>
+
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            未來目標
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            希望能在數位媒體與設計領域發揮創意，創造出屬於自己的作品！
           </div>
         </div>
       </div>
+
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            我的座右銘
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            「做自己想做的事，去自己想去的地方。」
           </div>
         </div>
       </div>
     </div>
-  </body>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
